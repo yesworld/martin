@@ -1,0 +1,7 @@
+.DS_Store
+.idea/
+.sites-runtime/
+.playwright-mcp/
+source/
+output/
+tmp/
