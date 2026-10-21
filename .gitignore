@@ -2,7 +2,7 @@
 .idea/
 .sites-runtime/
 .playwright-mcp/
-source/
 output/
 tmp/
-.openai
+.openai/
+.github/
