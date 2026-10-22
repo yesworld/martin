@@ -8,6 +8,7 @@ if [ ! -f dist/index.html ]; then
   exit 1
 fi
 
+deploy_version=$(date +%s)
 repo_url=$(git remote get-url origin)
 author_name=$(git config user.name)
 author_email=$(git config user.email)
@@ -28,6 +29,7 @@ else
 fi
 
 cp -R dist/. "$deploy_dir/"
+sed "s/{{version}}/$deploy_version/g" dist/index.html > "$deploy_dir/index.html"
 touch "$deploy_dir/.nojekyll"
 git -C "$deploy_dir" add -A
 
