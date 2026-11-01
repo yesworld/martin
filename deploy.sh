@@ -3,6 +3,8 @@ set -eu
 
 cd -- "$(dirname -- "$0")"
 
+node scripts/build.mjs
+
 if [ ! -f dist/index.html ]; then
   printf '%s\n' 'Ошибка: не найден dist/index.html.' >&2
   exit 1

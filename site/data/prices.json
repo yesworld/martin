@@ -1,0 +1,1662 @@
+{
+  "snapshotDate": "2026-11-01",
+  "source": "https://www.double-clean.ru/prices",
+  "groups": [
+    {
+      "id": 1,
+      "label": "Мебель: синтетическая обивка",
+      "rows": [
+        {
+          "id": "g1-0",
+          "label": "Диван прямой, ширина с подлокотниками, до 140 см",
+          "baseRubles": 1500.0,
+          "from": false,
+          "referenceOnly": false,
+          "material": "synthetic",
+          "service": "sofa",
+          "variant": "straight",
+          "min": 1,
+          "max": 140
+        },
+        {
+          "id": "g1-1",
+          "label": "Диван прямой, ширина с подлокотниками, от 141 до 200 см",
+          "baseRubles": 2250.0,
+          "from": false,
+          "referenceOnly": false,
+          "material": "synthetic",
+          "service": "sofa",
+          "variant": "straight",
+          "min": 141,
+          "max": 200
+        },
+        {
+          "id": "g1-2",
+          "label": "Диван прямой, ширина с подлокотниками, от 201 до 260 см",
+          "baseRubles": 3000.0,
+          "from": false,
+          "referenceOnly": false,
+          "material": "synthetic",
+          "service": "sofa",
+          "variant": "straight",
+          "min": 201,
+          "max": 260
+        },
+        {
+          "id": "g1-3",
+          "label": "Диван прямой, ширина с подлокотниками, от 261 до 320 см",
+          "baseRubles": 3750.0,
+          "from": false,
+          "referenceOnly": false,
+          "material": "synthetic",
+          "service": "sofa",
+          "variant": "straight",
+          "min": 261,
+          "max": 320
+        },
+        {
+          "id": "g1-4",
+          "label": "Диван угловой, ширина с подлокотниками, до 220 см",
+          "baseRubles": 3000.0,
+          "from": false,
+          "referenceOnly": false,
+          "material": "synthetic",
+          "service": "sofa",
+          "variant": "corner",
+          "min": 1,
+          "max": 220
+        },
+        {
+          "id": "g1-5",
+          "label": "Диван угловой, ширина с подлокотниками, от 221 до 280 см",
+          "baseRubles": 3750.0,
+          "from": false,
+          "referenceOnly": false,
+          "material": "synthetic",
+          "service": "sofa",
+          "variant": "corner",
+          "min": 221,
+          "max": 280
+        },
+        {
+          "id": "g1-6",
+          "label": "Диван угловой, ширина с подлокотниками, от 281 до 340 см",
+          "baseRubles": 4500.0,
+          "from": false,
+          "referenceOnly": false,
+          "material": "synthetic",
+          "service": "sofa",
+          "variant": "corner",
+          "min": 281,
+          "max": 340
+        },
+        {
+          "id": "g1-7",
+          "label": "Диван угловой, ширина с подлокотниками, от 341 до 400 см",
+          "baseRubles": 6000.0,
+          "from": false,
+          "referenceOnly": false,
+          "material": "synthetic",
+          "service": "sofa",
+          "variant": "corner",
+          "min": 341,
+          "max": 400
+        },
+        {
+          "id": "g1-8",
+          "label": "Спальное место дивана, по механизму трансформации",
+          "baseRubles": [
+            1200.0,
+            2400.0
+          ],
+          "from": false,
+          "referenceOnly": false,
+          "material": "synthetic",
+          "service": "sofa",
+          "variant": "sleeping"
+        },
+        {
+          "id": "g1-9",
+          "label": "Съемная подушка, ширина до 30 см",
+          "baseRubles": 225.0,
+          "from": false,
+          "referenceOnly": false,
+          "material": "synthetic",
+          "service": "sofa",
+          "variant": "pillow",
+          "min": 1,
+          "max": 30
+        },
+        {
+          "id": "g1-10",
+          "label": "Съемная подушка, ширина от 31 до 70 см",
+          "baseRubles": 450.0,
+          "from": false,
+          "referenceOnly": false,
+          "material": "synthetic",
+          "service": "sofa",
+          "variant": "pillow",
+          "min": 31,
+          "max": 70
+        },
+        {
+          "id": "g1-11",
+          "label": "Съемная подушка, ширина от 71 до 100 см",
+          "baseRubles": 675.0,
+          "from": false,
+          "referenceOnly": false,
+          "material": "synthetic",
+          "service": "sofa",
+          "variant": "pillow",
+          "min": 71,
+          "max": 100
+        },
+        {
+          "id": "g1-12",
+          "label": "Кухонный уголок, размеры до 110x150 см",
+          "baseRubles": 2100.0,
+          "from": false,
+          "referenceOnly": true,
+          "material": "synthetic"
+        },
+        {
+          "id": "g1-13",
+          "label": "Изголовье кровати, размеры до 100x160 см",
+          "baseRubles": 2250.0,
+          "from": false,
+          "referenceOnly": true,
+          "material": "synthetic"
+        },
+        {
+          "id": "g1-14",
+          "label": "Царги кровати, основание без матраса",
+          "baseRubles": 2250.0,
+          "from": false,
+          "referenceOnly": true,
+          "material": "synthetic"
+        },
+        {
+          "id": "g1-15",
+          "label": "Кровать, изголовье и царги без матраса",
+          "baseRubles": 4500.0,
+          "from": false,
+          "referenceOnly": true,
+          "material": "synthetic"
+        },
+        {
+          "id": "g1-16",
+          "label": "Стул, без мягкой спинки",
+          "baseRubles": 375.0,
+          "from": false,
+          "referenceOnly": false,
+          "material": "synthetic",
+          "service": "stool",
+          "variant": "seat"
+        },
+        {
+          "id": "g1-17",
+          "label": "Стул, с мягкой спинкой (1 сторона)",
+          "baseRubles": 450.0,
+          "from": false,
+          "referenceOnly": false,
+          "material": "synthetic",
+          "service": "stool",
+          "variant": "back1"
+        },
+        {
+          "id": "g1-18",
+          "label": "Стул, с мягкой спинкой (2 стороны)",
+          "baseRubles": 525.0,
+          "from": false,
+          "referenceOnly": false,
+          "material": "synthetic",
+          "service": "stool",
+          "variant": "back2"
+        },
+        {
+          "id": "g1-19",
+          "label": "Кресло-кровать, со спальным местом",
+          "baseRubles": 1500.0,
+          "from": false,
+          "referenceOnly": false,
+          "material": "synthetic",
+          "service": "chair",
+          "variant": "bed"
+        },
+        {
+          "id": "g1-20",
+          "label": "Кресло, ширина до 75 см",
+          "baseRubles": 750.0,
+          "from": false,
+          "referenceOnly": false,
+          "material": "synthetic",
+          "service": "chair",
+          "variant": "standard",
+          "min": 1,
+          "max": 75
+        },
+        {
+          "id": "g1-21",
+          "label": "Кресло, ширина более 75 см",
+          "baseRubles": 1125.0,
+          "from": false,
+          "referenceOnly": false,
+          "material": "synthetic",
+          "service": "chair",
+          "variant": "standard",
+          "min": 76,
+          "max": 10000
+        },
+        {
+          "id": "g1-22",
+          "label": "Пуфик, ширина до 40 см",
+          "baseRubles": 525.0,
+          "from": false,
+          "referenceOnly": true,
+          "material": "synthetic"
+        },
+        {
+          "id": "g1-23",
+          "label": "Большой пуф, ширина от 40 до 80 см",
+          "baseRubles": 750.0,
+          "from": false,
+          "referenceOnly": true,
+          "material": "synthetic"
+        },
+        {
+          "id": "g1-24",
+          "label": "Бинбэг",
+          "baseRubles": 750.0,
+          "from": false,
+          "referenceOnly": true,
+          "material": "synthetic"
+        },
+        {
+          "id": "g1-25",
+          "label": "Офисный стул",
+          "baseRubles": 450.0,
+          "from": false,
+          "referenceOnly": false,
+          "material": "synthetic",
+          "service": "stool",
+          "variant": "office"
+        },
+        {
+          "id": "g1-26",
+          "label": "Офисное кресло",
+          "baseRubles": 525.0,
+          "from": false,
+          "referenceOnly": false,
+          "material": "synthetic",
+          "service": "chair",
+          "variant": "office"
+        },
+        {
+          "id": "g1-27",
+          "label": "Кресло руководителя",
+          "baseRubles": 750.0,
+          "from": false,
+          "referenceOnly": false,
+          "material": "synthetic",
+          "service": "chair",
+          "variant": "executive"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "label": "Мебель: натуральная и смесовая обивка",
+      "rows": [
+        {
+          "id": "g2-0",
+          "label": "Диван прямой, ширина с подлокотниками, до 140 см",
+          "baseRubles": 3000.0,
+          "from": false,
+          "referenceOnly": false,
+          "material": "natural",
+          "service": "sofa",
+          "variant": "straight",
+          "min": 1,
+          "max": 140
+        },
+        {
+          "id": "g2-1",
+          "label": "Диван прямой, ширина с подлокотниками, от 141 до 200 см",
+          "baseRubles": 4500.0,
+          "from": false,
+          "referenceOnly": false,
+          "material": "natural",
+          "service": "sofa",
+          "variant": "straight",
+          "min": 141,
+          "max": 200
+        },
+        {
+          "id": "g2-2",
+          "label": "Диван прямой, ширина с подлокотниками, от 201 до 260 см",
+          "baseRubles": 6000.0,
+          "from": false,
+          "referenceOnly": false,
+          "material": "natural",
+          "service": "sofa",
+          "variant": "straight",
+          "min": 201,
+          "max": 260
+        },
+        {
+          "id": "g2-3",
+          "label": "Диван прямой, ширина с подлокотниками, от 261 до 320 см",
+          "baseRubles": 7500.0,
+          "from": false,
+          "referenceOnly": false,
+          "material": "natural",
+          "service": "sofa",
+          "variant": "straight",
+          "min": 261,
+          "max": 320
+        },
+        {
+          "id": "g2-4",
+          "label": "Диван угловой, ширина с подлокотниками, до 220 см",
+          "baseRubles": 6000.0,
+          "from": false,
+          "referenceOnly": false,
+          "material": "natural",
+          "service": "sofa",
+          "variant": "corner",
+          "min": 1,
+          "max": 220
+        },
+        {
+          "id": "g2-5",
+          "label": "Диван угловой, ширина с подлокотниками, от 221 до 280 см",
+          "baseRubles": 7500.0,
+          "from": false,
+          "referenceOnly": false,
+          "material": "natural",
+          "service": "sofa",
+          "variant": "corner",
+          "min": 221,
+          "max": 280
+        },
+        {
+          "id": "g2-6",
+          "label": "Диван угловой, ширина с подлокотниками, от 281 до 340 см",
+          "baseRubles": 9000.0,
+          "from": false,
+          "referenceOnly": false,
+          "material": "natural",
+          "service": "sofa",
+          "variant": "corner",
+          "min": 281,
+          "max": 340
+        },
+        {
+          "id": "g2-7",
+          "label": "Диван угловой, ширина с подлокотниками, от 341 до 400 см",
+          "baseRubles": 12000.0,
+          "from": false,
+          "referenceOnly": false,
+          "material": "natural",
+          "service": "sofa",
+          "variant": "corner",
+          "min": 341,
+          "max": 400
+        },
+        {
+          "id": "g2-8",
+          "label": "Спальное место дивана, по механизму трансформации",
+          "baseRubles": [
+            2400.0,
+            4800.0
+          ],
+          "from": false,
+          "referenceOnly": false,
+          "material": "natural",
+          "service": "sofa",
+          "variant": "sleeping"
+        },
+        {
+          "id": "g2-9",
+          "label": "Съемная подушка, ширина до 30 см",
+          "baseRubles": 450.0,
+          "from": false,
+          "referenceOnly": false,
+          "material": "natural",
+          "service": "sofa",
+          "variant": "pillow",
+          "min": 1,
+          "max": 30
+        },
+        {
+          "id": "g2-10",
+          "label": "Съемная подушка, ширина от 31 до 70 см",
+          "baseRubles": 900.0,
+          "from": false,
+          "referenceOnly": false,
+          "material": "natural",
+          "service": "sofa",
+          "variant": "pillow",
+          "min": 31,
+          "max": 70
+        },
+        {
+          "id": "g2-11",
+          "label": "Съемная подушка, ширина от 71 до 100 см",
+          "baseRubles": 1350.0,
+          "from": false,
+          "referenceOnly": false,
+          "material": "natural",
+          "service": "sofa",
+          "variant": "pillow",
+          "min": 71,
+          "max": 100
+        },
+        {
+          "id": "g2-12",
+          "label": "Кухонный уголок, размеры до 110x150 см",
+          "baseRubles": 4200.0,
+          "from": false,
+          "referenceOnly": true,
+          "material": "natural"
+        },
+        {
+          "id": "g2-13",
+          "label": "Изголовье кровати, размеры до 100x160 см",
+          "baseRubles": 4500.0,
+          "from": false,
+          "referenceOnly": true,
+          "material": "natural"
+        },
+        {
+          "id": "g2-14",
+          "label": "Царги кровати, основание без матраса",
+          "baseRubles": 4500.0,
+          "from": false,
+          "referenceOnly": true,
+          "material": "natural"
+        },
+        {
+          "id": "g2-15",
+          "label": "Кровать, изголовье и царги без матраса",
+          "baseRubles": 9000.0,
+          "from": false,
+          "referenceOnly": true,
+          "material": "natural"
+        },
+        {
+          "id": "g2-16",
+          "label": "Стул, без мягкой спинки",
+          "baseRubles": 750.0,
+          "from": false,
+          "referenceOnly": false,
+          "material": "natural",
+          "service": "stool",
+          "variant": "seat"
+        },
+        {
+          "id": "g2-17",
+          "label": "Стул, с мягкой спинкой (1 сторона)",
+          "baseRubles": 900.0,
+          "from": false,
+          "referenceOnly": false,
+          "material": "natural",
+          "service": "stool",
+          "variant": "back1"
+        },
+        {
+          "id": "g2-18",
+          "label": "Стул, с мягкой спинкой (2 стороны)",
+          "baseRubles": 1050.0,
+          "from": false,
+          "referenceOnly": false,
+          "material": "natural",
+          "service": "stool",
+          "variant": "back2"
+        },
+        {
+          "id": "g2-19",
+          "label": "Кресло-кровать, со спальным местом",
+          "baseRubles": 3000.0,
+          "from": false,
+          "referenceOnly": false,
+          "material": "natural",
+          "service": "chair",
+          "variant": "bed"
+        },
+        {
+          "id": "g2-20",
+          "label": "Кресло, ширина до 75 см",
+          "baseRubles": 1500.0,
+          "from": false,
+          "referenceOnly": false,
+          "material": "natural",
+          "service": "chair",
+          "variant": "standard",
+          "min": 1,
+          "max": 75
+        },
+        {
+          "id": "g2-21",
+          "label": "Кресло, ширина более 75 см",
+          "baseRubles": 2250.0,
+          "from": false,
+          "referenceOnly": false,
+          "material": "natural",
+          "service": "chair",
+          "variant": "standard",
+          "min": 76,
+          "max": 10000
+        },
+        {
+          "id": "g2-22",
+          "label": "Пуфик, ширина до 40 см",
+          "baseRubles": 1050.0,
+          "from": false,
+          "referenceOnly": true,
+          "material": "natural"
+        },
+        {
+          "id": "g2-23",
+          "label": "Большой пуф, ширина от 40 до 80 см",
+          "baseRubles": 1500.0,
+          "from": false,
+          "referenceOnly": true,
+          "material": "natural"
+        },
+        {
+          "id": "g2-24",
+          "label": "Бинбэг",
+          "baseRubles": 1500.0,
+          "from": false,
+          "referenceOnly": true,
+          "material": "natural"
+        },
+        {
+          "id": "g2-25",
+          "label": "Офисный стул",
+          "baseRubles": 900.0,
+          "from": false,
+          "referenceOnly": false,
+          "material": "natural",
+          "service": "stool",
+          "variant": "office"
+        },
+        {
+          "id": "g2-26",
+          "label": "Офисное кресло",
+          "baseRubles": 1050.0,
+          "from": false,
+          "referenceOnly": false,
+          "material": "natural",
+          "service": "chair",
+          "variant": "office"
+        },
+        {
+          "id": "g2-27",
+          "label": "Кресло руководителя",
+          "baseRubles": 1500.0,
+          "from": false,
+          "referenceOnly": false,
+          "material": "natural",
+          "service": "chair",
+          "variant": "executive"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "label": "Мебель: кожа",
+      "rows": [
+        {
+          "id": "g3-0",
+          "label": "Диван кожаный прямой, ширина с подлокотниками, до 140 см",
+          "baseRubles": 3000.0,
+          "from": false,
+          "referenceOnly": false,
+          "material": "leather",
+          "service": "sofa",
+          "variant": "straight",
+          "min": 1,
+          "max": 140
+        },
+        {
+          "id": "g3-1",
+          "label": "Диван кожаный прямой, ширина с подлокотниками, от 141 до 200 см",
+          "baseRubles": 4500.0,
+          "from": false,
+          "referenceOnly": false,
+          "material": "leather",
+          "service": "sofa",
+          "variant": "straight",
+          "min": 141,
+          "max": 200
+        },
+        {
+          "id": "g3-2",
+          "label": "Диван кожаный прямой, ширина с подлокотниками, от 201 до 260 см",
+          "baseRubles": 6000.0,
+          "from": false,
+          "referenceOnly": false,
+          "material": "leather",
+          "service": "sofa",
+          "variant": "straight",
+          "min": 201,
+          "max": 260
+        },
+        {
+          "id": "g3-3",
+          "label": "Диван кожаный прямой, ширина с подлокотниками, от 261 до 320 см",
+          "baseRubles": 7500.0,
+          "from": false,
+          "referenceOnly": false,
+          "material": "leather",
+          "service": "sofa",
+          "variant": "straight",
+          "min": 261,
+          "max": 320
+        },
+        {
+          "id": "g3-4",
+          "label": "Диван кожаный угловой, ширина с подлокотниками, до 220 см",
+          "baseRubles": 6000.0,
+          "from": false,
+          "referenceOnly": false,
+          "material": "leather",
+          "service": "sofa",
+          "variant": "corner",
+          "min": 1,
+          "max": 220
+        },
+        {
+          "id": "g3-5",
+          "label": "Диван кожаный угловой, ширина с подлокотниками, от 221 до 280 см",
+          "baseRubles": 7500.0,
+          "from": false,
+          "referenceOnly": false,
+          "material": "leather",
+          "service": "sofa",
+          "variant": "corner",
+          "min": 221,
+          "max": 280
+        },
+        {
+          "id": "g3-6",
+          "label": "Диван кожаный угловой, ширина с подлокотниками, от 281 до 340 см",
+          "baseRubles": 9000.0,
+          "from": false,
+          "referenceOnly": false,
+          "material": "leather",
+          "service": "sofa",
+          "variant": "corner",
+          "min": 281,
+          "max": 340
+        },
+        {
+          "id": "g3-7",
+          "label": "Диван кожаный угловой, ширина с подлокотниками, от 341 до 400 см",
+          "baseRubles": 12000.0,
+          "from": false,
+          "referenceOnly": false,
+          "material": "leather",
+          "service": "sofa",
+          "variant": "corner",
+          "min": 341,
+          "max": 400
+        },
+        {
+          "id": "g3-8",
+          "label": "Кожаное спальное место, по механизму трансформации",
+          "baseRubles": [
+            2400.0,
+            4800.0
+          ],
+          "from": false,
+          "referenceOnly": false,
+          "material": "leather",
+          "service": "sofa",
+          "variant": "sleeping"
+        },
+        {
+          "id": "g3-9",
+          "label": "Съемная кожаная подушка, ширина до 30 см",
+          "baseRubles": 450.0,
+          "from": false,
+          "referenceOnly": false,
+          "material": "leather",
+          "service": "sofa",
+          "variant": "pillow",
+          "min": 1,
+          "max": 30
+        },
+        {
+          "id": "g3-10",
+          "label": "Съемная кожаная подушка, ширина от 31 до 70 см",
+          "baseRubles": 900.0,
+          "from": false,
+          "referenceOnly": false,
+          "material": "leather",
+          "service": "sofa",
+          "variant": "pillow",
+          "min": 31,
+          "max": 70
+        },
+        {
+          "id": "g3-11",
+          "label": "Съемная кожаная подушка, ширина от 71 до 100 см",
+          "baseRubles": 1350.0,
+          "from": false,
+          "referenceOnly": false,
+          "material": "leather",
+          "service": "sofa",
+          "variant": "pillow",
+          "min": 71,
+          "max": 100
+        },
+        {
+          "id": "g3-12",
+          "label": "Кожаный кухонный уголок, размеры до 110x150 см",
+          "baseRubles": 4200.0,
+          "from": false,
+          "referenceOnly": true,
+          "material": "leather"
+        },
+        {
+          "id": "g3-13",
+          "label": "Кожаное кресло-кровать, со спальным местом",
+          "baseRubles": 3000.0,
+          "from": false,
+          "referenceOnly": false,
+          "material": "leather",
+          "service": "chair",
+          "variant": "bed"
+        },
+        {
+          "id": "g3-14",
+          "label": "Изголовье кровати, кожаная обивка (размеры до 1x1,6 м)",
+          "baseRubles": 4500.0,
+          "from": false,
+          "referenceOnly": true,
+          "material": "leather"
+        },
+        {
+          "id": "g3-15",
+          "label": "Царги кровати, кожаная обивка",
+          "baseRubles": 4500.0,
+          "from": false,
+          "referenceOnly": true,
+          "material": "leather"
+        },
+        {
+          "id": "g3-16",
+          "label": "Кожаный стул, без мягкой спинки",
+          "baseRubles": 750.0,
+          "from": false,
+          "referenceOnly": false,
+          "material": "leather",
+          "service": "stool",
+          "variant": "seat"
+        },
+        {
+          "id": "g3-17",
+          "label": "Кожаный стул, с мягкой спинкой (1 сторона)",
+          "baseRubles": 900.0,
+          "from": false,
+          "referenceOnly": false,
+          "material": "leather",
+          "service": "stool",
+          "variant": "back1"
+        },
+        {
+          "id": "g3-18",
+          "label": "Кожаный стул, с мягкой спинкой (2 стороны)",
+          "baseRubles": 1050.0,
+          "from": false,
+          "referenceOnly": false,
+          "material": "leather",
+          "service": "stool",
+          "variant": "back2"
+        },
+        {
+          "id": "g3-19",
+          "label": "Офисный стул, с кожаной спинкой и сидушкой",
+          "baseRubles": 900.0,
+          "from": false,
+          "referenceOnly": false,
+          "material": "leather",
+          "service": "stool",
+          "variant": "office"
+        },
+        {
+          "id": "g3-20",
+          "label": "Кожаный пуфик, ширина до 40 см",
+          "baseRubles": 1050.0,
+          "from": false,
+          "referenceOnly": true,
+          "material": "leather"
+        },
+        {
+          "id": "g3-21",
+          "label": "Большой кожаный пуф, ширина от 40 до 80 см",
+          "baseRubles": 1500.0,
+          "from": false,
+          "referenceOnly": true,
+          "material": "leather"
+        },
+        {
+          "id": "g3-22",
+          "label": "Кожаное кресло, ширина до 75 см",
+          "baseRubles": 1500.0,
+          "from": false,
+          "referenceOnly": false,
+          "material": "leather",
+          "service": "chair",
+          "variant": "standard",
+          "min": 1,
+          "max": 75
+        },
+        {
+          "id": "g3-23",
+          "label": "Кожаное кресло, ширина более 75 см",
+          "baseRubles": 2250.0,
+          "from": false,
+          "referenceOnly": false,
+          "material": "leather",
+          "service": "chair",
+          "variant": "standard",
+          "min": 76,
+          "max": 10000
+        },
+        {
+          "id": "g3-24",
+          "label": "Офисное кожаное кресло",
+          "baseRubles": 1050.0,
+          "from": false,
+          "referenceOnly": false,
+          "material": "leather",
+          "service": "chair",
+          "variant": "office"
+        },
+        {
+          "id": "g3-25",
+          "label": "Кресло руководителя",
+          "baseRubles": 1500.0,
+          "from": false,
+          "referenceOnly": false,
+          "material": "leather",
+          "service": "chair",
+          "variant": "executive"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "label": "Премиальная чистка — справочные тарифы",
+      "rows": [
+        {
+          "id": "g4-0",
+          "label": "Диван прямой, 2 посадочных места",
+          "baseRubles": 12000.0,
+          "from": true,
+          "referenceOnly": true
+        },
+        {
+          "id": "g4-1",
+          "label": "Диван прямой, 3 посадочных места",
+          "baseRubles": 18000.0,
+          "from": true,
+          "referenceOnly": true
+        },
+        {
+          "id": "g4-2",
+          "label": "Диван угловой, 2 посадочных места и угол",
+          "baseRubles": 24000.0,
+          "from": true,
+          "referenceOnly": true
+        },
+        {
+          "id": "g4-3",
+          "label": "Диван угловой, 3 посадочных места и угол",
+          "baseRubles": 30000.0,
+          "from": true,
+          "referenceOnly": true
+        },
+        {
+          "id": "g4-4",
+          "label": "Съемная подушка",
+          "baseRubles": 1000.0,
+          "from": true,
+          "referenceOnly": true
+        },
+        {
+          "id": "g4-5",
+          "label": "Изголовье кровати",
+          "baseRubles": 6000.0,
+          "from": true,
+          "referenceOnly": true
+        },
+        {
+          "id": "g4-6",
+          "label": "Стул",
+          "baseRubles": 1500.0,
+          "from": true,
+          "referenceOnly": true
+        },
+        {
+          "id": "g4-7",
+          "label": "Кресло",
+          "baseRubles": 6000.0,
+          "from": true,
+          "referenceOnly": true
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "label": "Горячая экстракция — справочные тарифы",
+      "rows": [
+        {
+          "id": "g5-0",
+          "label": "Диван прямой, ширина с подлокотниками, до 140 см",
+          "baseRubles": 4500.0,
+          "from": false,
+          "referenceOnly": true
+        },
+        {
+          "id": "g5-1",
+          "label": "Диван прямой, ширина с подлокотниками, от 141 до 200 см",
+          "baseRubles": 6750.0,
+          "from": false,
+          "referenceOnly": true
+        },
+        {
+          "id": "g5-2",
+          "label": "Диван прямой, ширина с подлокотниками, от 201 до 260 см",
+          "baseRubles": 9000.0,
+          "from": false,
+          "referenceOnly": true
+        },
+        {
+          "id": "g5-3",
+          "label": "Диван прямой, ширина с подлокотниками, от 261 до 320 см",
+          "baseRubles": 11250.0,
+          "from": false,
+          "referenceOnly": true
+        },
+        {
+          "id": "g5-4",
+          "label": "Диван угловой, ширина с подлокотниками, до 220 см",
+          "baseRubles": 9000.0,
+          "from": false,
+          "referenceOnly": true
+        },
+        {
+          "id": "g5-5",
+          "label": "Диван угловой, ширина с подлокотниками, от 221 до 280 см",
+          "baseRubles": 11250.0,
+          "from": false,
+          "referenceOnly": true
+        },
+        {
+          "id": "g5-6",
+          "label": "Диван угловой, ширина с подлокотниками, от 281 до 340 см",
+          "baseRubles": 13500.0,
+          "from": false,
+          "referenceOnly": true
+        },
+        {
+          "id": "g5-7",
+          "label": "Диван угловой, ширина с подлокотниками, от 341 до 400 см",
+          "baseRubles": 18000.0,
+          "from": false,
+          "referenceOnly": true
+        },
+        {
+          "id": "g5-8",
+          "label": "Спальное место дивана, по механизму трансформации",
+          "baseRubles": [
+            3600.0,
+            7200.0
+          ],
+          "from": false,
+          "referenceOnly": true
+        },
+        {
+          "id": "g5-9",
+          "label": "Съемная подушка, ширина до 30 см",
+          "baseRubles": 675.0,
+          "from": false,
+          "referenceOnly": true
+        },
+        {
+          "id": "g5-10",
+          "label": "Съемная подушка, ширина от 31 до 70 см",
+          "baseRubles": 1350.0,
+          "from": false,
+          "referenceOnly": true
+        },
+        {
+          "id": "g5-11",
+          "label": "Съемная подушка, ширина от 71 до 100 см",
+          "baseRubles": 2025.0,
+          "from": false,
+          "referenceOnly": true
+        },
+        {
+          "id": "g5-12",
+          "label": "Кухонный уголок, размеры до 110x150 см",
+          "baseRubles": 6300.0,
+          "from": false,
+          "referenceOnly": true
+        },
+        {
+          "id": "g5-13",
+          "label": "Изголовье кровати, размеры до 100x160 см",
+          "baseRubles": 6750.0,
+          "from": false,
+          "referenceOnly": true
+        },
+        {
+          "id": "g5-14",
+          "label": "Царги кровати, основание без матраса",
+          "baseRubles": 6750.0,
+          "from": false,
+          "referenceOnly": true
+        },
+        {
+          "id": "g5-15",
+          "label": "Кровать, изголовье и царги без матраса",
+          "baseRubles": 13500.0,
+          "from": false,
+          "referenceOnly": true
+        },
+        {
+          "id": "g5-16",
+          "label": "Стул, без мягкой спинки",
+          "baseRubles": 1125.0,
+          "from": false,
+          "referenceOnly": true
+        },
+        {
+          "id": "g5-17",
+          "label": "Стул, с мягкой спинкой (1 сторона)",
+          "baseRubles": 1350.0,
+          "from": false,
+          "referenceOnly": true
+        },
+        {
+          "id": "g5-18",
+          "label": "Стул, с мягкой спинкой (2 стороны)",
+          "baseRubles": 1575.0,
+          "from": false,
+          "referenceOnly": true
+        },
+        {
+          "id": "g5-19",
+          "label": "Кресло-кровать, со спальным местом",
+          "baseRubles": 4500.0,
+          "from": false,
+          "referenceOnly": true
+        },
+        {
+          "id": "g5-20",
+          "label": "Кресло, ширина до 75 см",
+          "baseRubles": 2250.0,
+          "from": false,
+          "referenceOnly": true
+        },
+        {
+          "id": "g5-21",
+          "label": "Кресло, ширина более 75 см",
+          "baseRubles": 3375.0,
+          "from": false,
+          "referenceOnly": true
+        },
+        {
+          "id": "g5-22",
+          "label": "Пуфик, ширина до 40 см",
+          "baseRubles": 1575.0,
+          "from": false,
+          "referenceOnly": true
+        },
+        {
+          "id": "g5-23",
+          "label": "Большой пуф, ширина от 40 до 80 см",
+          "baseRubles": 2250.0,
+          "from": false,
+          "referenceOnly": true
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "label": "Матрас с синтетическим чехлом: одна сторона",
+      "rows": [
+        {
+          "id": "g6-0",
+          "label": "Детский матрас, ширина 60-75 см, одна сторона",
+          "baseRubles": 400.0,
+          "from": false,
+          "referenceOnly": false,
+          "material": "synthetic",
+          "service": "mattress",
+          "min": 60,
+          "max": 75
+        },
+        {
+          "id": "g6-1",
+          "label": "Односпальный матрас, ширина 80-95 см, одна сторона",
+          "baseRubles": 600.0,
+          "from": false,
+          "referenceOnly": false,
+          "material": "synthetic",
+          "service": "mattress",
+          "min": 80,
+          "max": 95
+        },
+        {
+          "id": "g6-2",
+          "label": "Полутороспальный матрас, ширина 100-135 см, одна сторона",
+          "baseRubles": 800.0,
+          "from": false,
+          "referenceOnly": false,
+          "material": "synthetic",
+          "service": "mattress",
+          "min": 100,
+          "max": 135
+        },
+        {
+          "id": "g6-3",
+          "label": "Двуспальный матрас, ширина 140-200 см, одна сторона",
+          "baseRubles": 1000.0,
+          "from": false,
+          "referenceOnly": false,
+          "material": "synthetic",
+          "service": "mattress",
+          "min": 140,
+          "max": 200
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "label": "Матрас с кокосовой койрой: одна сторона",
+      "rows": [
+        {
+          "id": "g7-0",
+          "label": "Детский матрас, ширина 60-75 см, одна сторона",
+          "baseRubles": 1200.0,
+          "from": false,
+          "referenceOnly": false,
+          "material": "coconut",
+          "service": "mattress",
+          "min": 60,
+          "max": 75
+        },
+        {
+          "id": "g7-1",
+          "label": "Односпальный матрас, ширина 80-95 см, одна сторона",
+          "baseRubles": 1800.0,
+          "from": false,
+          "referenceOnly": false,
+          "material": "coconut",
+          "service": "mattress",
+          "min": 80,
+          "max": 95
+        },
+        {
+          "id": "g7-2",
+          "label": "Полутороспальный матрас, ширина 100-135 см, одна сторона",
+          "baseRubles": 2400.0,
+          "from": false,
+          "referenceOnly": false,
+          "material": "coconut",
+          "service": "mattress",
+          "min": 100,
+          "max": 135
+        },
+        {
+          "id": "g7-3",
+          "label": "Двуспальный матрас, ширина 140-200 см, одна сторона",
+          "baseRubles": 3000.0,
+          "from": false,
+          "referenceOnly": false,
+          "material": "coconut",
+          "service": "mattress",
+          "min": 140,
+          "max": 200
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "label": "Матрас с натуральным или смесовым чехлом: одна сторона",
+      "rows": [
+        {
+          "id": "g8-0",
+          "label": "Детский матрас, ширина 60-75 см, одна сторона",
+          "baseRubles": 2000.0,
+          "from": false,
+          "referenceOnly": false,
+          "material": "natural",
+          "service": "mattress",
+          "min": 60,
+          "max": 75
+        },
+        {
+          "id": "g8-1",
+          "label": "Односпальный матрас, ширина 80-95 см, одна сторона",
+          "baseRubles": 3000.0,
+          "from": false,
+          "referenceOnly": false,
+          "material": "natural",
+          "service": "mattress",
+          "min": 80,
+          "max": 95
+        },
+        {
+          "id": "g8-2",
+          "label": "Полутороспальный матрас, ширина 100-135 см, одна сторона",
+          "baseRubles": 4000.0,
+          "from": false,
+          "referenceOnly": false,
+          "material": "natural",
+          "service": "mattress",
+          "min": 100,
+          "max": 135
+        },
+        {
+          "id": "g8-3",
+          "label": "Двуспальный матрас, ширина 140-200 см, одна сторона",
+          "baseRubles": 5000.0,
+          "from": false,
+          "referenceOnly": false,
+          "material": "natural",
+          "service": "mattress",
+          "min": 140,
+          "max": 200
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "label": "Премиальный матрас: одна сторона",
+      "rows": [
+        {
+          "id": "g9-0",
+          "label": "Детский матрас, ширина 60-75 см, одна сторона",
+          "baseRubles": 4000.0,
+          "from": true,
+          "referenceOnly": true,
+          "material": "premium"
+        },
+        {
+          "id": "g9-1",
+          "label": "Односпальный матрас, ширина 80-95 см, одна сторона",
+          "baseRubles": 6000.0,
+          "from": true,
+          "referenceOnly": true,
+          "material": "premium"
+        },
+        {
+          "id": "g9-2",
+          "label": "Полутороспальный матрас, ширина 100-135 см, одна сторона",
+          "baseRubles": 8000.0,
+          "from": true,
+          "referenceOnly": true,
+          "material": "premium"
+        },
+        {
+          "id": "g9-3",
+          "label": "Двуспальный матрас, ширина 140-200 см, одна сторона",
+          "baseRubles": 10000.0,
+          "from": true,
+          "referenceOnly": true,
+          "material": "premium"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "label": "Дополнительные рублёвые позиции и минимальные суммы",
+      "rows": [
+        {
+          "id": "g10-0",
+          "label": "Локальная нейтрализация запаха",
+          "baseRubles": 500.0,
+          "from": false,
+          "referenceOnly": true
+        },
+        {
+          "id": "g10-1",
+          "label": "Нейтрализация запаха всего изделия",
+          "baseRubles": 1000.0,
+          "from": true,
+          "referenceOnly": true
+        },
+        {
+          "id": "g10-2",
+          "label": "Нейтрализация запаха матраса, одна сторона",
+          "baseRubles": 500.0,
+          "from": false,
+          "referenceOnly": true
+        },
+        {
+          "id": "g10-3",
+          "label": "Нейтрализация запаха шприцеванием, за один укол — справочно",
+          "baseRubles": 1000.0,
+          "from": false,
+          "referenceOnly": true
+        },
+        {
+          "id": "g10-4",
+          "label": "Посадочное место дивана до 60 см, синтетика",
+          "baseRubles": 750.0,
+          "from": false,
+          "referenceOnly": true
+        },
+        {
+          "id": "g10-5",
+          "label": "Посадочное место дивана до 60 см, натуральная/смесовая ткань",
+          "baseRubles": 1500.0,
+          "from": false,
+          "referenceOnly": true
+        },
+        {
+          "id": "g10-6",
+          "label": "Посадочное место кожаного дивана до 60 см",
+          "baseRubles": 1500.0,
+          "from": false,
+          "referenceOnly": true
+        },
+        {
+          "id": "g10-7",
+          "label": "Посадочное место до 60 см, горячая экстракция — справочно",
+          "baseRubles": 2250.0,
+          "from": false,
+          "referenceOnly": true
+        },
+        {
+          "id": "g10-8",
+          "label": "«Нейтрализация химии» — строка источника, только справочно",
+          "baseRubles": 500.0,
+          "from": true,
+          "referenceOnly": true
+        },
+        {
+          "id": "g10-9",
+          "label": "Минимальный заказ, до 30 км от МКАД",
+          "baseRubles": 3000.0,
+          "from": false,
+          "referenceOnly": true
+        },
+        {
+          "id": "g10-10",
+          "label": "Минимальный заказ, более 30 км от МКАД",
+          "baseRubles": 10000.0,
+          "from": false,
+          "referenceOnly": true
+        },
+        {
+          "id": "g10-11",
+          "label": "Минимальный заказ с аппаратной сушкой — справочно",
+          "baseRubles": 6000.0,
+          "from": false,
+          "referenceOnly": true
+        },
+        {
+          "id": "g10-12",
+          "label": "Минимальный заказ премиальной чистки — справочно",
+          "baseRubles": 10000.0,
+          "from": false,
+          "referenceOnly": true
+        },
+        {
+          "id": "g10-13",
+          "label": "Минимальный заказ сухой чистки специальных тканей штор — справочно",
+          "baseRubles": 10000.0,
+          "from": false,
+          "referenceOnly": true
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "label": "Процентные надбавки из источника",
+      "rows": []
+    },
+    {
+      "id": 12,
+      "label": "Шторы на объекте — справочные цены вне текущего перечня услуг",
+      "rows": [
+        {
+          "id": "g12-0",
+          "label": "Тюль, синтетика, ₽/м²",
+          "baseRubles": 400.0,
+          "from": false,
+          "referenceOnly": true
+        },
+        {
+          "id": "g12-1",
+          "label": "Тюль, натуральная ткань, ₽/м²",
+          "baseRubles": 500.0,
+          "from": false,
+          "referenceOnly": true
+        },
+        {
+          "id": "g12-2",
+          "label": "Штора, синтетика, ₽/м²",
+          "baseRubles": 500.0,
+          "from": false,
+          "referenceOnly": true
+        },
+        {
+          "id": "g12-3",
+          "label": "Штора, натуральная ткань, ₽/м²",
+          "baseRubles": 700.0,
+          "from": false,
+          "referenceOnly": true
+        },
+        {
+          "id": "g12-4",
+          "label": "Штора, бархат или шёлк, ₽/м²",
+          "baseRubles": 1000.0,
+          "from": false,
+          "referenceOnly": true
+        },
+        {
+          "id": "g12-5",
+          "label": "Штора, лён или вискоза, ₽/м²",
+          "baseRubles": 1000.0,
+          "from": false,
+          "referenceOnly": true
+        },
+        {
+          "id": "g12-6",
+          "label": "Римская штора, ₽/м²",
+          "baseRubles": 560.0,
+          "from": false,
+          "referenceOnly": true
+        },
+        {
+          "id": "g12-7",
+          "label": "Ламбрекен, ₽/пог. м",
+          "baseRubles": 800.0,
+          "from": false,
+          "referenceOnly": true
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "label": "Фабричная чистка штор — справочные цены вне текущего перечня услуг",
+      "rows": [
+        {
+          "id": "g13-0",
+          "label": "Тонкая штора, синтетика, ₽/м²",
+          "baseRubles": 780.0,
+          "from": false,
+          "referenceOnly": true
+        },
+        {
+          "id": "g13-1",
+          "label": "Плотная штора с подкладом, синтетика, ₽/м²",
+          "baseRubles": 900.0,
+          "from": false,
+          "referenceOnly": true
+        },
+        {
+          "id": "g13-2",
+          "label": "Тонкая штора, натуральная ткань, ₽/м²",
+          "baseRubles": 840.0,
+          "from": false,
+          "referenceOnly": true
+        },
+        {
+          "id": "g13-3",
+          "label": "Плотная штора с подкладом, натуральная ткань, ₽/м²",
+          "baseRubles": 960.0,
+          "from": false,
+          "referenceOnly": true
+        },
+        {
+          "id": "g13-4",
+          "label": "Тюль, синтетика, ₽/м²",
+          "baseRubles": 600.0,
+          "from": false,
+          "referenceOnly": true
+        },
+        {
+          "id": "g13-5",
+          "label": "Тюль, натуральная ткань, ₽/м²",
+          "baseRubles": 660.0,
+          "from": false,
+          "referenceOnly": true
+        },
+        {
+          "id": "g13-6",
+          "label": "Сложная или двойная тюль с декором, ₽/м²",
+          "baseRubles": 660.0,
+          "from": false,
+          "referenceOnly": true
+        },
+        {
+          "id": "g13-7",
+          "label": "Минимальная сумма фабричной чистки, в пределах МКАД",
+          "baseRubles": 6000.0,
+          "from": false,
+          "referenceOnly": true
+        },
+        {
+          "id": "g13-8",
+          "label": "Минимальная сумма фабричной чистки, до 10 км от МКАД",
+          "baseRubles": 6000.0,
+          "from": false,
+          "referenceOnly": true
+        },
+        {
+          "id": "g13-9",
+          "label": "Доставка при фабричной чистке, до 10 км от МКАД",
+          "baseRubles": 600.0,
+          "from": false,
+          "referenceOnly": true
+        },
+        {
+          "id": "g13-10",
+          "label": "Минимальная сумма фабричной чистки, 10–20 км от МКАД",
+          "baseRubles": 6000.0,
+          "from": false,
+          "referenceOnly": true
+        },
+        {
+          "id": "g13-11",
+          "label": "Доставка при фабричной чистке, 10–20 км от МКАД",
+          "baseRubles": 1000.0,
+          "from": false,
+          "referenceOnly": true
+        },
+        {
+          "id": "g13-12",
+          "label": "Минимальная сумма фабричной чистки, 20–40 км от МКАД",
+          "baseRubles": 10000.0,
+          "from": false,
+          "referenceOnly": true
+        },
+        {
+          "id": "g13-13",
+          "label": "Доставка при фабричной чистке, 20–40 км от МКАД",
+          "baseRubles": 1500.0,
+          "from": false,
+          "referenceOnly": true
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "label": "Услуги без найденной публичной цены",
+      "rows": []
+    }
+  ],
+  "extras": [
+    {
+      "id": "odor-local",
+      "label": "Локальная нейтрализация запаха",
+      "baseRubles": 500.0,
+      "from": false,
+      "referenceOnly": false,
+      "services": [
+        "sofa",
+        "chair",
+        "stool"
+      ]
+    },
+    {
+      "id": "odor-whole",
+      "label": "Нейтрализация запаха всего изделия",
+      "baseRubles": 1000.0,
+      "from": true,
+      "referenceOnly": false,
+      "services": [
+        "sofa",
+        "chair",
+        "stool"
+      ]
+    },
+    {
+      "id": "odor-mattress",
+      "label": "Нейтрализация запаха матраса, одна сторона",
+      "baseRubles": 500.0,
+      "from": false,
+      "referenceOnly": false,
+      "services": [
+        "mattress"
+      ]
+    }
+  ],
+  "minimum": {
+    "nearBaseRubles": 3000,
+    "farBaseRubles": 10000,
+    "farAfterKm": 30
+  },
+  "travel": {
+    "freeKm": 10,
+    "rublesPerKm": 60
+  },
+  "unknown": {
+    "rug": null,
+    "carpet": null,
+    "car": null
+  },
+  "mechanisms": [
+    {
+      "id": "first",
+      "label": "Еврокнижка, пантограф, пума, аккордеон, дельфин",
+      "priceIndex": 0
+    },
+    {
+      "id": "second",
+      "label": "Раскладушка, конрад, телескоп",
+      "priceIndex": 1
+    }
+  ]
+}

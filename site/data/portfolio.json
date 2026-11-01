@@ -1,0 +1,234 @@
+{
+  "cases": [
+    {
+      "slug": "chistka-matrasa",
+      "title": "Матрас",
+      "service": "mattress",
+      "images": [
+        {
+          "src": "before-after/1a.webp",
+          "width": 960,
+          "height": 1280,
+          "alt": "Пятно на поверхности матраса до химчистки"
+        },
+        {
+          "src": "before-after/1b.webp",
+          "width": 720,
+          "height": 1280,
+          "alt": "Поверхность матраса после химчистки"
+        }
+      ],
+      "material": null,
+      "initialState": null,
+      "treatment": null,
+      "result": null,
+      "description": "Матрас до и после химчистки. На странице собраны реальные фотографии этой работы. Состав материала и подробности обработки не зафиксированы."
+    },
+    {
+      "slug": "chistka-raskladnogo-divana",
+      "title": "Раскладной диван",
+      "service": "sofa",
+      "images": [
+        {
+          "src": "before-after/2a.webp",
+          "width": 1280,
+          "height": 720,
+          "alt": "Обивка раскладного дивана с загрязнениями до химчистки"
+        },
+        {
+          "src": "before-after/2b.webp",
+          "width": 1280,
+          "height": 720,
+          "alt": "Обивка раскладного дивана после химчистки"
+        }
+      ],
+      "material": null,
+      "initialState": null,
+      "treatment": null,
+      "result": null,
+      "description": "Раскладной диван до и после химчистки. На странице собраны реальные фотографии этой работы. Состав материала и подробности обработки не зафиксированы."
+    },
+    {
+      "slug": "chistka-svetlogo-stula",
+      "title": "Стул с мягкой обивкой",
+      "service": "stool",
+      "images": [
+        {
+          "src": "before-after/3a.webp",
+          "width": 720,
+          "height": 1280,
+          "alt": "Светлый стул с пятном на сиденье до химчистки"
+        },
+        {
+          "src": "before-after/3b.webp",
+          "width": 720,
+          "height": 1280,
+          "alt": "Светлый стул после химчистки сиденья и спинки"
+        }
+      ],
+      "material": null,
+      "initialState": null,
+      "treatment": null,
+      "result": null,
+      "description": "Стул с мягкой обивкой до и после химчистки. На странице собраны реальные фотографии этой работы. Состав материала и подробности обработки не зафиксированы."
+    },
+    {
+      "slug": "chistka-svetlogo-divana",
+      "title": "Светлый диван",
+      "service": "sofa",
+      "images": [
+        {
+          "src": "before-after/4a.webp",
+          "width": 1280,
+          "height": 720,
+          "alt": "Сиденье светлого дивана с пятнами до химчистки"
+        },
+        {
+          "src": "before-after/4b.webp",
+          "width": 1280,
+          "height": 720,
+          "alt": "Сиденье светлого дивана после химчистки"
+        }
+      ],
+      "material": null,
+      "initialState": null,
+      "treatment": null,
+      "result": null,
+      "description": "Светлый диван до и после химчистки. На странице собраны реальные фотографии этой работы. Состав материала и подробности обработки не зафиксированы."
+    },
+    {
+      "slug": "chistka-uglovogo-divana",
+      "title": "Угловой диван",
+      "service": "sofa",
+      "images": [
+        {
+          "src": "before-after/5a.webp",
+          "width": 1280,
+          "height": 720,
+          "alt": "Сиденье углового дивана с загрязнениями до химчистки"
+        },
+        {
+          "src": "before-after/5b.webp",
+          "width": 1280,
+          "height": 720,
+          "alt": "Угловой диван после химчистки"
+        }
+      ],
+      "material": null,
+      "initialState": null,
+      "treatment": null,
+      "result": null,
+      "description": "Угловой диван до и после химчистки. На странице собраны реальные фотографии этой работы. Состав материала и подробности обработки не зафиксированы."
+    },
+    {
+      "slug": "chistka-dvuspalnogo-matrasa",
+      "title": "Двуспальный матрас",
+      "service": "mattress",
+      "images": [
+        {
+          "src": "work-photo-07.webp",
+          "width": 720,
+          "height": 960,
+          "alt": "Двуспальный матрас с заметными пятнами до химчистки"
+        },
+        {
+          "src": "work-photo-06.webp",
+          "width": 960,
+          "height": 720,
+          "alt": "Тот же двуспальный матрас после химчистки"
+        }
+      ],
+      "material": null,
+      "initialState": null,
+      "treatment": null,
+      "result": null,
+      "description": "Двуспальный матрас до и после химчистки. На странице собраны реальные фотографии этой работы. Состав материала и подробности обработки не зафиксированы."
+    }
+  ],
+  "photos": [
+    {
+      "src": "work-photo-13.webp",
+      "width": 960,
+      "height": 720,
+      "alt": "Серый двухместный диван, фотография с выезда мастера",
+      "title": "Серый диван"
+    },
+    {
+      "src": "work-photo-01.webp",
+      "width": 960,
+      "height": 720,
+      "alt": "Белый стёганый матрас на кровати",
+      "title": "Двуспальный матрас"
+    },
+    {
+      "src": "work-photo-03.webp",
+      "width": 960,
+      "height": 720,
+      "alt": "Фиолетовый угловой диван в комнате",
+      "title": "Угловой диван"
+    },
+    {
+      "src": "work-photo-12.webp",
+      "width": 960,
+      "height": 720,
+      "alt": "Прозрачная насадка экстрактора на тканевой обивке",
+      "title": "Чистка в деталях"
+    },
+    {
+      "src": "work-photo-09.webp",
+      "width": 960,
+      "height": 720,
+      "alt": "Синий диван с тканевой обивкой",
+      "title": "Тканевая обивка"
+    },
+    {
+      "src": "work-photo-04.webp",
+      "width": 720,
+      "height": 960,
+      "alt": "Светлый диван и оборудование для химчистки рядом",
+      "title": "Работа с мягкой мебелью"
+    },
+    {
+      "src": "work-photo-11.webp",
+      "width": 720,
+      "height": 960,
+      "alt": "Экстрактор Santoemma Sabrina рядом с диваном",
+      "title": "Оборудование в работе"
+    },
+    {
+      "src": "work-photo-02.webp",
+      "width": 960,
+      "height": 720,
+      "alt": "Матрас со стёганой поверхностью в комнате",
+      "title": "Стёганый матрас"
+    },
+    {
+      "src": "work-photo-05.webp",
+      "width": 720,
+      "height": 960,
+      "alt": "Кровать с мягким стёганым изголовьем",
+      "title": "Мягкое изголовье"
+    },
+    {
+      "src": "work-photo-08.webp",
+      "width": 720,
+      "height": 960,
+      "alt": "Насадка для чистки на серой обивке дивана",
+      "title": "Насадка и обивка"
+    },
+    {
+      "src": "work-photo-10.webp",
+      "width": 960,
+      "height": 720,
+      "alt": "Тканевое спальное место раскладного дивана",
+      "title": "Спальное место"
+    },
+    {
+      "src": "work-photo-14.webp",
+      "width": 960,
+      "height": 720,
+      "alt": "Серый диван с видимыми следами загрязнений",
+      "title": "Осмотр обивки"
+    }
+  ]
+}
