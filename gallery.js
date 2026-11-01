@@ -58,6 +58,7 @@
     track.addEventListener('dragstart', (event) => event.preventDefault());
     track.addEventListener('pointerdown', (event) => {
       if (!event.isPrimary || event.button !== 0) return;
+      if (event.target.closest('a, button, input, select, textarea, summary')) return;
       clearTimeout(scrollTimer);
       gesture = {
         pointerId: event.pointerId,
