@@ -1,4 +1,4 @@
-import { calculateOrder, money } from './pricing.mjs?v=6b1f6130a86f';
+import { calculateOrder, money } from './pricing.mjs?v=d12dd3fe7894';
 
 const host = document.getElementById('calculator');
 if (host) initialize().catch(() => {
@@ -7,7 +7,7 @@ if (host) initialize().catch(() => {
 });
 
 async function initialize() {
-  const response = await fetch(new URL('./calculator-data.json?v=6b1f6130a86f', import.meta.url));
+  const response = await fetch(new URL('./calculator-data.json?v=d12dd3fe7894', import.meta.url));
   if (!response.ok) throw new Error('Calculator data unavailable');
   const { prices, discount, services, contacts } = await response.json();
   const items = [];
