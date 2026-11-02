@@ -137,6 +137,8 @@ a:focus-visible,button:focus-visible,summary:focus-visible,input:focus-visible,s
 .site-header{min-height:90px;gap:24px;padding-block:6px;flex-wrap:nowrap}
 .brand{display:block;width:122px;flex-shrink:0;letter-spacing:0}
 .brand img{width:100%;height:auto;max-height:78px;object-fit:contain;mix-blend-mode:multiply}
+.site-header>.brand-horizontal{width:280px;height:58px}
+.site-header>.brand-horizontal img{height:100%;max-height:none;object-fit:cover;object-position:center}
 .navigation{gap:22px;font-size:.8125rem;align-items:center;flex-wrap:nowrap;margin-left:auto}
 .navigation>a{white-space:nowrap}
 .header-phone{font-size:.875rem;font-weight:700;white-space:nowrap}
@@ -371,6 +373,7 @@ input[type=checkbox]{width:19px;height:19px;accent-color:var(--blue);flex-shrink
  body{padding-bottom:calc(64px + env(safe-area-inset-bottom))}
  .site-header{min-height:74px;padding-block:3px;gap:16px;flex-wrap:nowrap}
  .site-header>.brand{width:96px}.brand img{max-height:65px}
+ .site-header>.brand-horizontal{width:clamp(190px,56vw,220px);height:46px}
  .header-calculate{display:none}.header-phone{font-size:.8125rem}
  .mobile-menu nav{padding-inline:18px;grid-template-columns:1fr}
  .hero{grid-template-columns:1fr;gap:25px;padding-top:23px;padding-bottom:28px}
