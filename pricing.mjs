@@ -72,8 +72,7 @@ export function calculateOrder(items, distance, data, discountPercent) {
   const lines = items.map(item => calculateItem(item, data, discountPercent));
   const subtotal = lines.reduce((sum, line) => sum + line.known, 0);
   const distanceKnown = Number.isFinite(distance) && distance >= 0;
-  const minimumBase = distanceKnown && distance > data.minimum.farAfterKm ? data.minimum.farBaseRubles : data.minimum.nearBaseRubles;
-  const minimum = items.length ? discountedKopecks(minimumBase, discountPercent) : 0;
+  const minimum = items.length ? discountedKopecks(data.minimum.baseRubles, discountPercent) : 0;
   const trip = distanceKnown && items.length ? tripCost(distance, data.travel) : 0;
   return {
     lines, subtotal, minimum, trip,
