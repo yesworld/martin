@@ -1634,9 +1634,7 @@
     }
   ],
   "minimum": {
-    "nearBaseRubles": 3000,
-    "farBaseRubles": 10000,
-    "farAfterKm": 30
+    "baseRubles": 3000
   },
   "travel": {
     "freeKm": 10,

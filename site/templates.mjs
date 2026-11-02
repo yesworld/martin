@@ -10,8 +10,7 @@ export function createTemplates({ config, prices, portfolio, services, faq, revi
   const icon = name => `<svg class="icon" aria-hidden="true"><use href="#${name}"/></svg>`;
   const link = (path, label, className = '') => `<a class="${className}" href="${url(path)}">${label}</a>`;
   const rowPrice = row => tariffPrice(row, discount);
-  const minimum = money(discountedKopecks(prices.minimum.nearBaseRubles, discount));
-  const farMinimum = money(discountedKopecks(prices.minimum.farBaseRubles, discount));
+  const minimum = money(discountedKopecks(prices.minimum.baseRubles, discount));
   const travelText = `В Москве и до ${prices.travel.freeKm} км от МКАД доплата за расстояние не начисляется. Далее — ${prices.travel.rublesPerKm} ₽ за каждый километр сверх первых ${prices.travel.freeKm} км, в одну сторону.`;
   const serviceRows = id => prices.groups.flatMap(group => group.rows).filter(row => !row.referenceOnly && row.service === id && row.variant !== 'pillow');
   const fromPrice = id => {
@@ -46,7 +45,7 @@ export function createTemplates({ config, prices, portfolio, services, faq, revi
   }
 
   const cards = (list = services) => `<div class="service-grid">${list.map((service, index) => `<article class="service-card">${link(service.slug + '/', `<div class="service-card-image">${image(service.image || 'santoemma-sabrina.webp', service.image ? service.title + (service.id === 'chair' ? ' — оборудование на выезде' : ' — фотография из проекта') : 'Оборудование Santoemma Sabrina для выездной химчистки')}<span class="card-number">0${index + 1}</span></div><div class="service-card-copy"><h3>${service.title} ${icon('arrow')}</h3><p>${service.summary}</p><span class="service-price">${fromPrice(service.id)}</span></div>`)}</article>`).join('')}</div>`;
-  const conditions = () => `<div class="price-conditions"><p><strong>Минимальный заказ — ${minimum}</strong> до ${prices.minimum.farAfterKm} км от МКАД. Более ${prices.minimum.farAfterKm} км — ${farMinimum}.</p><p>${travelText} Сначала применяется минимальная сумма работ, затем прибавляется выезд. Маршрут и расстояние согласуем при обращении.</p></div>`;
+  const conditions = () => `<div class="price-conditions"><p><strong>Минимальный заказ — ${minimum}</strong>.</p><p>${travelText} Сначала применяется минимальная сумма работ, затем прибавляется выезд. Маршрут и расстояние согласуем при обращении.</p></div>`;
   function tables(id = null) {
     const furniture = prices.groups.filter(group => [1, 2, 3, 6, 7, 8].includes(group.id));
     return furniture.map(group => {
