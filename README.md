@@ -18,7 +18,7 @@
 - `site/data/services.json`, `portfolio.json`, `faq.json`, `reviews.json`, `images.json` — контент и размеры изображений.
 - `site/pricing.mjs` — единые расчёты в копейках для генератора и браузера.
 - `site/calculator.mjs`, `app.js`, `gallery.js`, `styles.css` — интерактивность и общие стили.
-- `scripts/build.mjs` — генерация 21 HTML-страницы, данных калькулятора и SEO-файлов.
+- `scripts/build.mjs` — генерация 20 HTML-страниц, данных калькулятора и SEO-файлов.
 - `dist/` — готовый сайт, изображения и шрифты; публикуется на GitHub Pages. HTML, CSS и JS здесь генерируются, править их нужно в `site/`.
 - `source/` — оригиналы фотографий и логотипа. Они не изменяются.
 - `deploy.sh` — генерация и публикация в ветку `gh-pages` без переключения рабочей ветки.

@@ -55,10 +55,6 @@ async function initialize() {
       fields += number(item, 'widthMetres', 'Ширина, м', { min: 0.1, max: 1000, step: 0.1 });
       fields += `<p class="form-hint full-width" data-area></p>`;
     }
-    if (item.service === 'car') {
-      fields += select(item, 'vehicle', 'Тип автомобиля', [['sedan', 'Седан'], ['hatchback', 'Хетчбэк'], ['wagon', 'Универсал'], ['suv', 'Кроссовер / внедорожник'], ['van', 'Минивэн / микроавтобус'], ['other', 'Другой']]);
-      fields += field(item, 'elements', 'Какие элементы нужно почистить?', `<textarea id="item-${item.id}-elements" data-field="elements" rows="2" maxlength="500" placeholder="Например, передние сиденья и ковровое покрытие"></textarea>`);
-    }
     const card = document.createElement('article');
     card.className = 'order-item';
     card.dataset.id = item.id;
@@ -87,7 +83,7 @@ async function initialize() {
 
   function addItem(service) {
     itemHost.querySelector('.empty-order')?.remove();
-    const item = { id: String(++nextId), service, material: 'synthetic', shape: 'straight', width: service === 'mattress' ? 140 : service === 'chair' ? 75 : 140, quantity: 1, sleeping: 'none', pillows: 0, pillowWidth: 50, sides: 1, sameSides: false, variant: service === 'stool' ? 'seat' : 'standard', odor: 'none', length: 2, widthMetres: 3, vehicle: 'sedan', elements: '' };
+    const item = { id: String(++nextId), service, material: 'synthetic', shape: 'straight', width: service === 'mattress' ? 140 : service === 'chair' ? 75 : 140, quantity: 1, sleeping: 'none', pillows: 0, pillowWidth: 50, sides: 1, sameSides: false, variant: service === 'stool' ? 'seat' : 'standard', odor: 'none', length: 2, widthMetres: 3 };
     items.push(item);
     itemHost.append(renderCard(item));
     update();
@@ -140,7 +136,6 @@ async function initialize() {
     if (item.pillows > 0 && ['sofa', 'chair'].includes(item.service)) details.push(`подушки: ${item.pillows} шт. по ${item.pillowWidth} см на изделие`);
     if (item.odor !== 'none') details.push(prices.extras.find(extra => extra.id === item.odor)?.label || 'обработка от запаха');
     if (['rug', 'carpet'].includes(item.service)) details.push(`${item.length} × ${item.widthMetres} м`, `площадь ${new Intl.NumberFormat('ru-RU', { maximumFractionDigits: 2 }).format(item.length * item.widthMetres)} м²`);
-    if (item.service === 'car') details.push(itemHost.querySelector(`[data-id="${item.id}"] [data-field="vehicle"]`).selectedOptions[0].textContent, item.elements ? 'элементы: ' + item.elements : 'состав чистки нужно согласовать');
     if (item.invalid) details.push('параметры требуют проверки');
     return details.join('; ');
   }
