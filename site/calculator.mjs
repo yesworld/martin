@@ -3,7 +3,7 @@ import { calculateOrder, money } from './pricing.mjs?v=__VERSION__';
 const host = document.getElementById('calculator');
 if (host) initialize().catch(() => {
   host.hidden = false;
-  host.innerHTML = '<div class="notice">Не удалось загрузить данные калькулятора. Откройте прайс через меню или позвоните Мартину, чтобы рассчитать заказ.</div>';
+  host.innerHTML = '<div class="notice">Не удалось загрузить данные калькулятора. Откройте прайс через меню или позвоните, чтобы рассчитать заказ.</div>';
 });
 
 async function initialize() {
@@ -147,7 +147,7 @@ async function initialize() {
     const distanceInput = document.getElementById('distance');
     const distance = distanceInput.value !== '' && distanceInput.checkValidity() ? Number(distanceInput.value) : NaN;
     const order = calculateOrder(items, distance, prices, discount);
-    const text = ['Здравствуйте, Мартин! Хочу обсудить химчистку.'];
+    const text = ['Здравствуйте! Хочу обсудить химчистку.'];
     items.forEach((item, index) => {
       const line = order.lines[index];
       const price = line.uncertain ? (line.known ? 'от ' + money(line.known) + '; часть стоимости уточняется' : 'Стоимость уточняется') : money(line.known);

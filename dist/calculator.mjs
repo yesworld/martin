@@ -1,13 +1,13 @@
-import { calculateOrder, money } from './pricing.mjs?v=b47e57fc8597';
+import { calculateOrder, money } from './pricing.mjs?v=27baab3bf276';
 
 const host = document.getElementById('calculator');
 if (host) initialize().catch(() => {
   host.hidden = false;
-  host.innerHTML = '<div class="notice">Не удалось загрузить данные калькулятора. Откройте прайс через меню или позвоните Мартину, чтобы рассчитать заказ.</div>';
+  host.innerHTML = '<div class="notice">Не удалось загрузить данные калькулятора. Откройте прайс через меню или позвоните, чтобы рассчитать заказ.</div>';
 });
 
 async function initialize() {
-  const response = await fetch(new URL('./calculator-data.json?v=b47e57fc8597', import.meta.url));
+  const response = await fetch(new URL('./calculator-data.json?v=27baab3bf276', import.meta.url));
   if (!response.ok) throw new Error('Calculator data unavailable');
   const { prices, discount, services, contacts } = await response.json();
   const items = [];
@@ -147,7 +147,7 @@ async function initialize() {
     const distanceInput = document.getElementById('distance');
     const distance = distanceInput.value !== '' && distanceInput.checkValidity() ? Number(distanceInput.value) : NaN;
     const order = calculateOrder(items, distance, prices, discount);
-    const text = ['Здравствуйте, Мартин! Хочу обсудить химчистку.'];
+    const text = ['Здравствуйте! Хочу обсудить химчистку.'];
     items.forEach((item, index) => {
       const line = order.lines[index];
       const price = line.uncertain ? (line.known ? 'от ' + money(line.known) + '; часть стоимости уточняется' : 'Стоимость уточняется') : money(line.known);
