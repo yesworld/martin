@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://yesworld.github.io/martin/sitemap.xml

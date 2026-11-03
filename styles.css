@@ -308,10 +308,12 @@ td:last-child,th:last-child{text-align:right;white-space:nowrap;font-variant-num
 .review-card a{text-decoration:underline}
 .reveal{animation:arrive .55s ease both;animation-play-state:paused}
 .reveal.is-visible{animation-play-state:running}
-@keyframes arrive{from{opacity:.7;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+@keyframes arrive{from{transform:translateY(12px)}to{transform:translateY(0)}}
 
 /* Browser-local order calculator. */
 .calculator-section{padding-top:10px;padding-bottom:55px}
+.calculator-loading,#calculator{min-height:100vh;min-height:100svh}
+.calculator-loading{padding-top:16px;color:var(--muted)}
 .calculator-layout{display:grid;grid-template-columns:minmax(0,1.55fr) minmax(300px,1fr);gap:28px;align-items:start}
 .add-item{margin-bottom:24px}
 .add-item>label,.distance-panel>label,.order-text-section>label{display:block;font-size:.9375rem;font-weight:700;margin-bottom:12px}
@@ -337,7 +339,7 @@ input[type=checkbox]{width:19px;height:19px;accent-color:var(--blue);flex-shrink
 .form-error{font-size:.8125rem;color:#8d3d25;margin-top:15px}
 .order-item-bottom{display:flex;align-items:start;justify-content:space-between;gap:25px;border-top:1px solid var(--line);padding-top:22px;margin-top:22px}
 .quantity-control{display:flex;align-items:center;gap:5px;flex-shrink:0}
-.quantity-control button{border:1px solid #acb8a8;background:transparent;width:38px;height:44px;border-radius:5px;font-size:1.25rem}
+.quantity-control button{border:1px solid #acb8a8;background:transparent;width:44px;height:44px;border-radius:5px;font-size:1.25rem}
 .quantity-control button:disabled{opacity:.4;cursor:default}
 .quantity-control input{width:48px;padding:8px 0;text-align:center;appearance:textfield;-moz-appearance:textfield}
 .quantity-control input::-webkit-inner-spin-button{appearance:none;margin:0}
@@ -400,7 +402,7 @@ input[type=checkbox]{width:19px;height:19px;accent-color:var(--blue);flex-shrink
  .process-list{grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 22px}.process-list p{font-size:.875rem}.result-note{font-size:.8125rem}
  .work-gallery{margin-top:25px}.gallery-toolbar{gap:14px}.gallery-toolbar p{font-size:.8125rem}.gallery-toolbar h3{font-size:1.25rem}
  .comparison-pair{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.comparison-gallery{--gallery-image-height:clamp(190px,50vw,340px)}
- .comparison-photo figcaption{font-size:.75rem}.gallery-controls{left:6px;right:6px}.gallery-arrow{width:38px;height:38px}.gallery-arrow .icon{width:19px}
+ .comparison-photo figcaption{font-size:.75rem}.gallery-controls{left:6px;right:6px}.gallery-arrow{width:44px;height:44px}.gallery-arrow .icon{width:19px}
  .comparison-caption{font-size:.8125rem}.gallery-count{font-size:.8125rem}.work-gallery .comparison-caption a{font-size:.75rem}
  .faq-list summary{font-size:.9375rem;padding-block:21px;gap:18px}.faq-list details p{font-size:.875rem;padding-right:15px}
  .contact-section{padding-block:45px}.contact-inner{grid-template-columns:1fr;gap:28px}.contact-copy h2{font-size:2.5rem}.contact-copy>p:not(.eyebrow){font-size:.9375rem}
@@ -423,14 +425,14 @@ input[type=checkbox]{width:19px;height:19px;accent-color:var(--blue);flex-shrink
  .work-grid{grid-template-columns:1fr;gap:22px}.work-card-pair img{height:250px}.work-card-copy{padding:20px}.work-card-copy h3{font-size:1.0625rem}
  .case-pair{--gallery-image-height:clamp(240px,67vw,450px)}.case-description{margin-top:30px}.contact-panel{padding:26px}.contact-page-grid{gap:32px}
  .calculator-section{padding-top:0}.calculator-layout{gap:24px}.add-item>label,.distance-panel>label,.order-text-section>label{font-size:.875rem}
- .add-item-row{gap:10px}.add-item-row .button{padding-inline:16px;font-size:.8125rem}.add-item-row select{font-size:.875rem}
+ .add-item-row{gap:10px}.add-item-row .button{padding-inline:16px;font-size:.8125rem}.add-item-row select{font-size:1rem}
  .order-item{padding:20px}.order-item-heading{margin-bottom:20px}.order-item-heading h2{font-size:1.125rem}.item-fields{gap:18px 12px}
  .form-field>label{font-size:.75rem}.form-field input,.form-field select{font-size:1rem}.form-field textarea{font-size:1rem}
- .checkbox-field,.form-hint{font-size:.75rem}.order-item-bottom{gap:14px;align-items:start}.quantity-control{gap:4px}.quantity-control button{width:34px}.quantity-control input{width:42px}
- .item-result strong{font-size:.9375rem;line-height:1.7}.item-result>span{font-size:.6875rem}.distance-panel{padding:21px}
- .order-summary{padding:26px}.summary-total{font-size:2rem}.order-text-section{margin-top:28px}.order-text-section textarea{font-size:.8125rem}
+ .checkbox-field,.form-hint{font-size:.75rem}.order-item-bottom{gap:14px;align-items:start}.quantity-control{gap:4px}.quantity-control button{width:44px}.quantity-control input{width:44px;min-height:44px;font-size:1rem}
+ .item-result strong{font-size:.9375rem;line-height:1.7}.item-result>span{font-size:.6875rem}.distance-panel{padding:21px}.distance-panel input{font-size:1rem}
+ .order-summary{padding:26px}.summary-total{font-size:2rem}.order-text-section{margin-top:28px}.order-text-section textarea{font-size:1rem}
  .review-grid{grid-template-columns:1fr}
 }
 @media(max-width:520px){.header-phone{display:none}.mobile-menu{margin-left:auto}.service-grid{grid-template-columns:1fr}.service-card-image{height:210px}.service-card-copy{padding:23px}.service-card h3{font-size:1.2rem}.service-card p{font-size:.9375rem}.service-price{font-size:1rem}.quick-prices>div{display:grid;grid-template-columns:1.2fr 1fr;align-items:start}.quick-prices strong{white-space:normal}.item-fields{grid-template-columns:1fr}.full-width{grid-column:auto}.order-item-bottom{flex-wrap:wrap}.item-result{text-align:left;flex:1;min-width:125px}.work-card-pair img{height:210px}.hero .action-row .button{padding-inline:19px}.hero .text-link{font-size:.8125rem}.add-item-row .button{padding-inline:14px}}
-@media(max-width:380px){.wrap{width:calc(100% - 32px)}.benefit-strip{display:grid;grid-template-columns:1fr}.benefit-strip p{width:auto;font-size:.8125rem}.hero .action-row{display:grid;justify-items:start}.hero .button{width:auto;min-height:52px;font-size:.8125rem}.hero h1{font-size:2rem}.process-list{grid-template-columns:1fr}.process-list h3{font-size:1.125rem}.process-list p{font-size:.9375rem}.contact-number{font-size:1.5rem}.contact-card{padding:24px}.comparison-pair{gap:7px}.comparison-photo figcaption{font-size:.6875rem}.work-card-pair img{height:180px}.order-item{padding:17px}.quantity-control button{width:32px}.order-summary{padding:22px}.add-item-row{flex-wrap:wrap}.add-item-row select{flex-basis:100%}.add-item-row .button{width:100%}.header-shell .site-header{gap:12px}.site-footer{column-gap:16px}.page-intro h1{font-size:2rem}}
+@media(max-width:380px){.wrap{width:calc(100% - 32px)}.benefit-strip{display:grid;grid-template-columns:1fr}.benefit-strip p{width:auto;font-size:.8125rem}.hero .action-row{display:grid;justify-items:start}.hero .button{width:auto;min-height:52px;font-size:.8125rem}.hero h1{font-size:2rem}.process-list{grid-template-columns:1fr}.process-list h3{font-size:1.125rem}.process-list p{font-size:.9375rem}.contact-number{font-size:1.5rem}.contact-card{padding:24px}.comparison-pair{gap:7px}.comparison-photo figcaption{font-size:.6875rem}.work-card-pair img{height:180px}.order-item{padding:17px}.quantity-control button{width:44px}.order-summary{padding:22px}.add-item-row{flex-wrap:wrap}.add-item-row select{flex-basis:100%}.add-item-row .button{width:100%}.header-shell .site-header{gap:12px}.site-footer{column-gap:16px}.page-intro h1{font-size:2rem}}
 @media(prefers-reduced-motion:reduce){.reveal{animation:none!important}.reveal.is-visible{transform:none}.faq-list details[open] summary span{transform:none}}

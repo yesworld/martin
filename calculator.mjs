@@ -1,13 +1,18 @@
-import { calculateOrder, money } from './pricing.mjs?v=305e6ca7da75';
+import { calculateOrder, money } from './pricing.mjs?v=8b6dcae26a0b';
 
 const host = document.getElementById('calculator');
-if (host) initialize().catch(() => {
+const loading = document.getElementById('calculator-loading');
+function revealCalculator() {
+  loading?.remove();
   host.hidden = false;
+}
+if (host) initialize().catch(() => {
   host.innerHTML = '<div class="notice">Не удалось загрузить данные калькулятора. Откройте прайс через меню или позвоните, чтобы рассчитать заказ.</div>';
+  revealCalculator();
 });
 
 async function initialize() {
-  const response = await fetch(new URL('./calculator-data.json?v=305e6ca7da75', import.meta.url));
+  const response = await fetch(new URL('./calculator-data.json?v=8b6dcae26a0b', import.meta.url));
   if (!response.ok) throw new Error('Calculator data unavailable');
   const { prices, discount, services, contacts } = await response.json();
   const items = [];
@@ -197,5 +202,5 @@ async function initialize() {
   const requestedService = new URLSearchParams(location.search).get('service');
   choice.value = services.some(service => service.id === requestedService) ? requestedService : 'sofa';
   addItem(choice.value);
-  host.hidden = false;
+  revealCalculator();
 }
